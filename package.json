@@ -1,19 +1,25 @@
 {
-  "name": "init-awesome",
+  "name": "init-awesome-h5",
   "version": "1.0.0",
   "description": "You can choose between the initial PC or the mobile end (the mobile end has a Rem layout)",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack serve --config webpack.base.js --color --progress --hot  --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/liquidGo/Init_Awesome.git"
+    "url": "git+ssh://git@github.com/liquidGo/Init_Awesome_H5.git"
   },
   "author": "左岸",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/liquidGo/Init_Awesome/issues"
   },
-  "homepage": "https://github.com/liquidGo/Init_Awesome#readme"
+  "homepage": "https://github.com/liquidGo/Init_Awesome#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
 }
