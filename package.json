@@ -1,0 +1,19 @@
+{
+  "name": "init-awesome",
+  "version": "1.0.0",
+  "description": "You can choose between the initial PC or the mobile end (the mobile end has a Rem layout)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liquidGo/Init_Awesome.git"
+  },
+  "author": "左岸",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liquidGo/Init_Awesome/issues"
+  },
+  "homepage": "https://github.com/liquidGo/Init_Awesome#readme"
+}
