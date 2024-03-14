@@ -10,6 +10,7 @@ module.exports = {
         "ie >= 8"
       ]
     },
+// Non responsive layouts can be deleted
     'postcss-pxtorem': {
       rootValue: 37.5,
       propList: ['*']
